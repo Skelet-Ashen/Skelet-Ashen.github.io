@@ -1,0 +1,40 @@
+@font-face {
+  font-family: myFont; /* set name */
+  src: url(Lordish-Regular.ttf); /* url of the font */
+}
+
+body{
+    background-image: url("back.avif");
+    margin: 0px;
+    padding: 0px;
+    font-family: myFont;
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+    font-size: 75px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    justify-content: center;
+    font-family: myFont;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 40px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.container div {
+  text-align: center;
+}
